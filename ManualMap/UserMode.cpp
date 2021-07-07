@@ -26,9 +26,9 @@ UserMode::UserMode(int processID)
 
 
 
-size_t UserMode::ProcessReadMemory(void * toRead, void * toWrite, int size)
+SIZE_T UserMode::ProcessReadMemory(void * toRead, void * toWrite, int size)
 {
-	size_t readBytes = 0;
+	SIZE_T readBytes = 0;
 	DWORD oldProtect = 0;
 	if (!ReadProcessMemory(hProcess, toRead, toWrite, size, &readBytes)) {
 		return 0;
@@ -36,9 +36,9 @@ size_t UserMode::ProcessReadMemory(void * toRead, void * toWrite, int size)
 	return readBytes;
 }
 
-size_t UserMode::WriteMemory(void * toWrite, void * toRead, int size)
+SIZE_T UserMode::WriteMemory(void * toWrite, void * toRead, int size)
 {
-	size_t readBytes = 0;
+	SIZE_T readBytes = 0;
 	WriteProcessMemory(hProcess, toWrite, toRead, size, &readBytes);
 	return readBytes;
 }
@@ -61,7 +61,7 @@ int UserMode::ReadPEB(void* buffer, int bufferSize)
 		
 		debugInformation("PROCESS_BASIC_INFORMATION32 succesfully retrieved");
 
-		size_t size1 = 0;
+		SIZE_T size1 = 0;
 		size1 = ReadMemory((void*)pebBase, buffer, bufferSize,0);
 		if (size1!=bufferSize) {
 			//printf("Error code: %d\n", GetLastError());
@@ -79,7 +79,7 @@ int UserMode::ReadPEB(void* buffer, int bufferSize)
 		debugInformation("PROCESS_BASIC_INFORMATION64 succesfully retrieved");
 		printf("PEBBase: %#llx		Reserved1: %#llx\n", pbi.PebBaseAddress, pbi.Reserved1);
 
-		size_t size1 = 0;
+		SIZE_T size1 = 0;
 		size1 = ReadMemory((void*)pbi.PebBaseAddress, buffer, bufferSize,0);
 		if (size1 != bufferSize) {
 			//printf("Error code: %d\n", GetLastError());
@@ -97,7 +97,7 @@ BYTE UserMode::getArchiteture()
 	return architeture;
 }
 
-size_t UserMode::VirtualQueryInformation(void * address, MEMORY_BASIC_INFORMATION * buffer, size_t size)
+SIZE_T UserMode::VirtualQueryInformation(void * address, MEMORY_BASIC_INFORMATION * buffer, SIZE_T size)
 {
 	return VirtualQueryEx(hProcess, address, buffer, size);
 }

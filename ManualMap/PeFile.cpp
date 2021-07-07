@@ -4,6 +4,7 @@
 #include "Tracer.h"
 #include "constants.h"
 #include "Loader.h"
+#include <stdexcept>
 
 
 PEFile::PEFile()

@@ -5,6 +5,7 @@
 #include "Tracer.h"
 #include <string>
 #include "PEFile.h"
+#include "UserMode.h"
 
 
 #define PROCESS_32 1
@@ -37,9 +38,9 @@ public:
 	void addModuleIfAbsent(Module* mod);
 	
 
-	size_t ReadMemory(void* toRead, void* toWrite, int size, bool excludeInacessibleMemory);
-	size_t VirtualQueryMemory(void* address, MEMORY_BASIC_INFORMATION64* buffer);
-	size_t WriteMemory(void* toRead, void* toWrite, int size);
+	SIZE_T ReadMemory(void* toRead, void* toWrite, int size, bool excludeInacessibleMemory);
+	SIZE_T VirtualQueryMemory(void* address, MEMORY_BASIC_INFORMATION64* buffer);
+	SIZE_T WriteMemory(void* toRead, void* toWrite, int size);
 	void*  AllocateMemoryProcess(void* adress, int size, DWORD allocType, DWORD protection);
 	DWORD  CreateNewThread(void* address);
 	BYTE getArchiteture();

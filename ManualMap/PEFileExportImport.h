@@ -1,6 +1,7 @@
 #pragma once
 #include "struct.h"
 #include "Tracer.h"
+#include <exception>
 
 class ExportEntry {
 public:

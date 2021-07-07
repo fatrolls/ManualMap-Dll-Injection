@@ -92,17 +92,17 @@ void Process::addModuleIfAbsent(Module * mod)
 	throw std::exception("Module with same name already loaded");
 }
 
-size_t Process::ReadMemory(void * toRead, void * toWrite, int size, bool excludeInacessibleMemory)
+SIZE_T Process::ReadMemory(void * toRead, void * toWrite, int size, bool excludeInacessibleMemory)
 {
 	return MemoryAccess->ReadMemory(toRead, toWrite, size, excludeInacessibleMemory);
 }
 
-size_t Process::VirtualQueryMemory(void * address, MEMORY_BASIC_INFORMATION64 * buffer)
+SIZE_T Process::VirtualQueryMemory(void * address, MEMORY_BASIC_INFORMATION64 * buffer)
 {
 	return MemoryAccess->VirtualQueryMemory(address, buffer);
 }
 
-size_t Process::WriteMemory(void * toRead, void * toWrite, int size)
+SIZE_T Process::WriteMemory(void * toRead, void * toWrite, int size)
 {
 	return MemoryAccess->WriteMemory(toRead, toWrite, size);
 }

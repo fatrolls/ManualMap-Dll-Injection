@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include <exception>
 
-size_t Memory::VirtualQueryMemory(void * address, MEMORY_BASIC_INFORMATION64* buffer)
+SIZE_T Memory::VirtualQueryMemory(void * address, MEMORY_BASIC_INFORMATION64* buffer)
 {
-	size_t result = VirtualQueryInformation(address, (MEMORY_BASIC_INFORMATION*)buffer, sizeof(MEMORY_BASIC_INFORMATION64));
+	SIZE_T result = VirtualQueryInformation(address, (MEMORY_BASIC_INFORMATION*)buffer, sizeof(MEMORY_BASIC_INFORMATION64));
 	if (result == sizeof(MEMORY_BASIC_INFORMATION64)) {
 		return result;
 	}
@@ -24,13 +24,13 @@ size_t Memory::VirtualQueryMemory(void * address, MEMORY_BASIC_INFORMATION64* bu
 	return 0;
 }
 
-size_t Memory::ReadMemory(void * toRead, void * toWrite, int size, bool excludeInacessibleMemory)
+SIZE_T Memory::ReadMemory(void * toRead, void * toWrite, int size, bool excludeInacessibleMemory)
 {
 	int readBytes = ProcessReadMemory(toRead, toWrite, size);
 	if (size > readBytes && excludeInacessibleMemory) {
 		MEMORY_BASIC_INFORMATION mib = { 0 };
-		size_t currOffset = 0;
-		size_t bytesRead = 0;
+		SIZE_T currOffset = 0;
+		SIZE_T bytesRead = 0;
 
 		uintptr_t bufferOffsetPointer = (uint64_t)toWrite;
 		uintptr_t targetOffsetPointer = (uint64_t)toRead;
