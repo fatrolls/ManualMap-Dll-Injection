@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shared Files">
+      <UniqueIdentifier>{f3447ca2-fac9-43c3-b824-053a59ce99ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEFile">
+      <UniqueIdentifier>{e93184ba-c175-47ac-9283-eb8b10f2ce7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Injector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ManualInjection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="constants.h">
+      <Filter>Shared Files</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.h">
+      <Filter>Shared Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Shared Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NtdllExports.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NtdllExports.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeFile.cpp">
+      <Filter>PEFile</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFile32.cpp">
+      <Filter>PEFile</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFile64.cpp">
+      <Filter>PEFile</Filter>
+    </ClCompile>
+    <ClCompile Include="PEFileExportImport.cpp">
+      <Filter>PEFile</Filter>
+    </ClCompile>
+    <ClCompile Include="UserMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Injector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualInjection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFile32.h">
+      <Filter>PEFile</Filter>
+    </ClInclude>
+    <ClInclude Include="PeFile.h">
+      <Filter>PEFile</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFile64.h">
+      <Filter>PEFile</Filter>
+    </ClInclude>
+    <ClInclude Include="PEFileExportImport.h">
+      <Filter>PEFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PEBStruct.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PEB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

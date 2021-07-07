@@ -1,0 +1,183 @@
+﻿  Injector.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(56,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdio(33): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(95): message : see reference to class template instantiation '_ImportEntry<T>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(69,15): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdio(33): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(87,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdio(33): message : see declaration of 'std'
+  ManualInjection.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(56,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdio(33): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(95): message : see reference to class template instantiation '_ImportEntry<T>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(69,15): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdio(33): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(87,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\cstdio(33): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\ManualInjection.cpp(118,21): warning C4244: '+=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+  main.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\main.cpp(3,10): fatal error C1083: Cannot open include file: 'UserModeProcess.h': No such file or directory
+  Memory.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(17,54): error C2440: '=': cannot convert from 'PVOID' to 'ULONGLONG'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(17,39): message : There is no context in which this conversion is possible
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(18,48): error C2440: '=': cannot convert from 'PVOID' to 'ULONGLONG'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(18,36): message : There is no context in which this conversion is possible
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(38,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(42,7): error C2664: 'size_t Memory::VirtualQueryMemory(void *,MEMORY_BASIC_INFORMATION64 *)': cannot convert argument 2 from 'MEMORY_BASIC_INFORMATION *' to 'MEMORY_BASIC_INFORMATION64 *'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(42,56): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(6,16): message : see declaration of 'Memory::VirtualQueryMemory'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.cpp(51,36): warning C4018: '>': signed/unsigned mismatch
+  NtdllExports.h
+  PeFile.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(56,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(95): message : see reference to class template instantiation '_ImportEntry<T>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(69,15): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(87,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(47,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(50,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(173,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(194,14): error C2039: 'invalid_argument': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(25): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(194,30): error C3861: 'invalid_argument': identifier not found
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(211,13): error C2039: 'invalid_argument': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(25): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(211,29): error C3861: 'invalid_argument': identifier not found
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(220,13): error C2039: 'invalid_argument': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(25): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(220,29): error C3861: 'invalid_argument': identifier not found
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(234,13): error C2039: 'invalid_argument': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\map(25): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PeFile.cpp(234,29): error C3861: 'invalid_argument': identifier not found
+  PEFile32.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(56,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(95): message : see reference to class template instantiation '_ImportEntry<T>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(69,15): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(87,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFile32.cpp(3,10): error C2006: '#include': expected "FILENAME" or <FILENAME>
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFile32.cpp(3,10): fatal error C1083: Cannot open include file: '': No such file or directory
+  PEFile64.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(56,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(95): message : see reference to class template instantiation '_ImportEntry<T>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(69,15): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(87,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+  PEFileExportImport.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(56,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(95): message : see reference to class template instantiation '_ImportEntry<T>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(69,15): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEFileExportImport.h(87,14): error C2039: 'exception': is not a member of 'std'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h(23): message : see declaration of 'std'
+  Process.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(8,19): error C3646: 'getLdrPointer': unknown override specifier
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(8,33): error C2059: syntax error: ')'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(8,38): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(9,19): error C3646: 'getApiSetMap': unknown override specifier
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(9,32): error C2059: syntax error: ')'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(9,37): error C2238: unexpected token(s) preceding ';'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(18,11): error C3646: 'getLdrPointer': unknown override specifier
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(24): message : see reference to class template instantiation '_PEB<T>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(18,24): error C2059: syntax error: '('
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(18,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(19,11): error C3646: 'getApiSetMap': unknown override specifier
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(19,23): error C2059: syntax error: '('
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(19,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Process.cpp(19,22): error C2061: syntax error: identifier 'UserMode'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(18,11): error C3668: '_PEB<uint32_t>::getLdrPointer': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Process.cpp(23): message : see reference to class template instantiation '_PEB<uint32_t>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(19,11): error C3668: '_PEB<uint32_t>::getApiSetMap': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(18,11): error C3668: '_PEB<uint64_t>::getLdrPointer': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Process.cpp(25): message : see reference to class template instantiation '_PEB<uint64_t>' being compiled
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(19,11): error C3668: '_PEB<uint64_t>::getApiSetMap': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Process.cpp(166,44): error C2039: 'getLdrPointer': is not a member of 'PEB'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(5): message : see declaration of 'PEB'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Process.h(49,7): message : This diagnostic occurred in the compiler generated function 'void Process::extractAllPebDataTables(void)'
+  UserMode.cpp
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.h(4,13): error C2011: 'Memory': 'class' type redefinition
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\Memory.h(4): message : see declaration of 'Memory'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(5,7): error C2371: 'PEB': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winternl.h(198): message : see declaration of 'PEB'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(13,1): error C2989: '_PEB': class template has already been declared as a non-class template
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winternl.h(178): message : see declaration of '_PEB'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(13,1): warning C4099: '_PEB': type name first seen using 'struct' now seen using 'class'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winternl.h(178): message : see declaration of '_PEB'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\PEB.h(12,1): error C3857: '_PEB': multiple template parameter lists are not allowed
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(82,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(111,17): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\struct.h(177,7): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.h(7,32): error C2504: 'Memory': base class undefined
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.h(11,9): error C3668: 'UserMode::ProcessReadMemory': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.h(12,9): error C3668: 'UserMode::WriteMemory': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.h(13,8): error C3668: 'UserMode::AllocateMemoryProcess': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.h(14,6): error C3668: 'UserMode::ReadPEB': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.h(15,7): error C3668: 'UserMode::getArchiteture': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.h(16,9): error C3668: 'UserMode::VirtualQueryInformation': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.h(17,8): error C3668: 'UserMode::CreateNewThread': method with override specifier 'override' did not override any base class methods
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(33,5): error C2664: 'BOOL ReadProcessMemory(HANDLE,LPCVOID,LPVOID,SIZE_T,SIZE_T *)': cannot convert argument 5 from 'size_t *' to 'SIZE_T *'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(33,58): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(159,1): message : see declaration of 'ReadProcessMemory'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(42,64): error C2664: 'BOOL WriteProcessMemory(HANDLE,LPVOID,LPCVOID,SIZE_T,SIZE_T *)': cannot convert argument 5 from 'size_t *' to 'SIZE_T *'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(42,54): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h(172,1): message : see declaration of 'WriteProcessMemory'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(58,11): warning C4477: 'printf' : format string '%#llx' requires an argument of type 'unsigned __int64', but variadic argument 1 has type 'NTSTATUS'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(58,11): message : consider using '%lx' in the format string
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(58,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'uint64_t'
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(58,11): message : consider using '%lld' in the format string
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(58,11): message : consider using '%I64d' in the format string
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(65,11): error C3861: 'ReadMemory': identifier not found
+C:\Users\User\source\repos\ConsoleApplication1\Debug\ManualMap\UserMode.cpp(83,11): error C3861: 'ReadMemory': identifier not found
+  Generating Code...
